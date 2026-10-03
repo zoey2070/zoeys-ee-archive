@@ -1,0 +1,14 @@
+﻿%List of bugged blocks
+%-Invisible Block
+%0;136;invisibleBlock.png
+% Invisible block as been added to EE in "secrets"
+-Invisible Portal
+0;242;invisiblePortal.png;100
+-Text block
+0;1000;textBlock.png
+-Invisible death
+0;361;invisibleDeath.png;-100
+%Used coins doesnt work anymore.
+%-Used coins
+%0;110;yellow shadow coin.png
+%0;111;blue shadow coin.png

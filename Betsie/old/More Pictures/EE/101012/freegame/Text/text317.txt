@@ -1,0 +1,1 @@
+﻿<p align="left"><font face="Arial_10pt_st" size="10" color="#999999" letterSpacing="0.000000" kerning="1">If you set the <font color="#ffffff">Super secret edit key</font>, only people with this <sbr />secret key will be able to edit your level. If you leave the key <sbr />blank <font color="#ffffff">everyone will be able to edit your level!</font></font></p>

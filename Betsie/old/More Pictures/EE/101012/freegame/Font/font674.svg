@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="212px" height="260px"
+xml:space="preserve">
+<g id="PathID_1751" transform="matrix(0.0352941, 0, 0, 0.0352941, 48, 37.8)">
+<path style="fill:#FFFFFF;fill-opacity:1" d="M512 -640l0 128l-256 0l0 384l384 0l0 128l-640 0l0 -896l640 0l0 128l-384 0l0 128l256 0" />
+</g>
+<g id="PathID_1752" transform="matrix(0.0352941, 0, 0, 0.0352941, 96, 37.8)">
+<path style="fill:#FFFFFF;fill-opacity:1" d="M0 -128l256 0l0 -256l-128 0l0 -128l-128 0l0 -256l128 0l0 -128l384 0l0 128l-256 0l0 256l128 0l0 128l128 0l0 256l-128 0l0 128l-384 0l0 -128" />
+</g>
+<g id="PathID_1753" transform="matrix(0.0352941, 0, 0, 0.0352941, 144, 37.8)">
+<path style="fill:#FFFFFF;fill-opacity:1" d="M256 -384l128 0l0 -128l-128 0l0 128M640 -512l0 256l-384 0l0 128l384 0l0 128l-512 0l0 -128l-128 0l0 -384l128 0l0 -128l384 0l0 128l128 0" />
+</g>
+<g id="PathID_1754" transform="matrix(0.0352941, 0, 0, 0.0352941, 0, 84)">
+<path style="fill:#FFFFFF;fill-opacity:1" d="M256 -256l128 0l0 -256l-128 0l0 256M128 0l256 0l0 -128l-256 0l0 -128l-128 0l0 -256l128 0l0 -128l512 0l0 640l-128 0l0 128l-384 0l0 -128" />
+</g>
+<g id="PathID_1755" transform="matrix(0.0352941, 0, 0, 0.0352941, 48, 84)">
+<path style="fill:#FFFFFF;fill-opacity:1" d="M384 0l0 -512l-128 0l0 512l-256 0l0 -896l256 0l0 256l256 0l0 128l128 0l0 512l-256 0" />
+</g>
+<g id="PathID_1756" transform="matrix(0.0352941, 0, 0, 0.0352941, 96, 84)">
+<path style="fill:#FFFFFF;fill-opacity:1" d="M640 -512l0 512l-256 0l0 -512l-128 0l0 512l-256 0l0 -640l512 0l0 128l128 0" />
+</g>
+<g id="PathID_1757" transform="matrix(0.0352941, 0, 0, 0.0352941, 144, 84)">
+<path style="fill:#FFFFFF;fill-opacity:1" d="M384 -128l0 -384l-128 0l0 384l128 0M128 0l0 -128l-128 0l0 -384l128 0l0 -128l384 0l0 128l128 0l0 384l-128 0l0 128l-384 0" />
+</g>
+<g id="PathID_1758" transform="matrix(0.0352941, 0, 0, 0.0352941, 0, 132)">
+<path style="fill:#FFFFFF;fill-opacity:1" d="M384 -256l0 -256l-128 0l0 256l128 0M512 -640l0 128l128 0l0 256l-128 0l0 128l-256 0l0 256l-256 0l0 -768l512 0" />
+</g>
+<g id="PathID_1759" transform="matrix(0.0352941, 0, 0, 0.0352941, 48, 132)">
+<path style="fill:#FFFFFF;fill-opacity:1" d="M0 0l0 -640l256 0l0 128l128 0l0 -128l128 0l0 256l-256 0l0 384l-256 0" />
+</g>
+<g id="PathID_1760" transform="matrix(0.0352941, 0, 0, 0.0352941, 96, 132)">
+<path style="fill:#FFFFFF;fill-opacity:1" d="M384 -256l0 -384l256 0l0 640l-128 0l0 128l-384 0l0 -128l256 0l0 -128l-256 0l0 -128l-128 0l0 -384l256 0l0 384l128 0" />
+</g>
+<g id="PathID_1761" transform="matrix(0.0352941, 0, 0, 0.0352941, 144, 132)">
+<path style="fill:#FFFFFF;fill-opacity:1" d="" />
+</g>
+</svg>

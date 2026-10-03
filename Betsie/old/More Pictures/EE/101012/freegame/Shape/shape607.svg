@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="25px" height="26px"
+xml:space="preserve">
+<g id="PathID_177" transform="matrix(1, 0, 0, 1, 12.5, 12.75)">
+<pattern 
+id="PatternID_100" patternUnits="userSpaceOnUse" overflow="visible" width="16" height="22" viewBox="0 0 16 22" patternTransform="matrix(4.99992, 0, 0, 5, -42.55, -82.55)"
+>
+<image 
+width="16" height="22"
+xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAAZ0lEQVR4nGNgGAWjYBQMDsCIT/LrQysTFmZWlT9/f9/hlj92BpsaJkKa2Ri/LGdhZlX5+tDKhCQDYJoZOOwZ2H4dXM7CzKpCkgF//v6+8+s/TyTDxz6GX2z2kX/+/r6DTR3FYTAMAAA/0ChZ0iqrpAAAAABJRU5ErkJggj=="
+>
+</image>
+</pattern>
+<path style="fill:url(#PatternID_100) " d="M12.5 -7.75L12.5 7.6L7.65 7.6L7.65 12.75L-7.5 12.75L-7.5 7.6L-12.5 7.6L-12.5 -7.75L-7.5 -7.75L-7.5 -12.75L7.65 -12.75L7.65 -7.75L12.5 -7.75" />
+</g>
+</svg>

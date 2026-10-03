@@ -1,0 +1,86 @@
+%This is a commentary
+%List of action blocks
+-Gravity
+0;0;000.png
+0;1;b1.png
+0;2;b2.png
+0;3;b3.png
+0;4;b4.png
+-Game
+0;5;b5.png
+0;121;trophy.png
+0;255;dec38.png
+0;360;checkpoint.png
+-Keys
+0;6;b6.png
+0;7;b7.png
+0;8;b8.png
+-Doors
+0;23;b23.png
+0;24;b24.png
+0;25;b25.png
+-Gates
+0;26;b26.png
+0;27;b27.png
+0;28;b28.png
+-Coins
+0;100;yellow coin.png
+0;101;blue coin.png
+0;43;b43.png
+0;165;b139.png
+0;213;b213.png
+0;214;b214.png
+-Ladders
+0;120;b98.png
+0;118;b135.png
+0;98;b174.png
+0;99;b175.png
+-Liquids
+0;119;water.png
+0;369;swamp water.png
+-Boosts
+0;114;b157.png
+0;115;b158.png
+0;116;b159.png
+0;117;b160.png
+-Portals
+0;242;portal 0.png;3
+0;242;portal 1.png;0
+0;242;portal 2.png;1
+0;242;portal 3.png;2
+-Invisible Portals
+0;381;iportal 0.png;3
+0;381;iportal 1.png;0
+0;381;iportal 2.png;1
+0;381;iportal 3.png;2
+-World Portal
+0;374;world portal.png
+-Time doors
+0;156;timedoor.png
+0;157;timegate.png
+-Switch doors
+0;113;switchPurple_activated.png
+0;184;switchPurple1.png
+0;185;switchPurple0.png
+-Hazards
+0;361;spikeRight.png;0
+0;361;spikeDown.png;1
+0;361;spikeLeft.png;2
+0;361;spikeUp.png;3
+0;368;fire.png
+-Smileys
+0;241;dec24.png
+0;337;cake.png
+-Music
+0;77;b77.png
+0;83;b83.png
+-Zombies blocks
+0;206;zG.png
+0;207;zD.png
+-Builder blocks
+0;200;buildG.png
+0;201;buildD.png
+-Sign
+0;385;dec153.png
+-Hologram
+0;397;holo.png

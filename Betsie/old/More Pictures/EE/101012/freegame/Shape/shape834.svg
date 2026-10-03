@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="49px" height="11px"
+xml:space="preserve">
+<g id="PathID_253" transform="matrix(1, 0, 0, 1, 0, 0)">
+<linearGradient
+id="LinearGradID_173" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0, -0.00671387, 0.00375366, 0, 25.85, 5.5)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#001F9F;stop-opacity:1" />
+<stop  offset="1" style="stop-color:#00B4D4;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_173) " d="M49 11L0 11L0 0L49 0L49 11" />
+</g>
+</svg>

@@ -1,0 +1,15 @@
+[Hacked EE Client]
+====================
+Buttons
+====================
+Modmode            X
+Crown              C
+Secret blocks      V
+Diamond Smiley     Z
+Key Trolling       B
+Invisible          N
+Anti-Death         L
+====================
+Say commands
+====================
+.info

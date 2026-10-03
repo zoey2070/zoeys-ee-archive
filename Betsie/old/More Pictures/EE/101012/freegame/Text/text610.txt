@@ -1,0 +1,1 @@
+﻿<p align="left"><font face="Nokia Cellphone FC Small_12pt_st" size="12" color="#666666" letterSpacing="0.000000" kerning="1">No rooms found.</font></p>

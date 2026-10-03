@@ -1,0 +1,1 @@
+﻿<p align="center"><font face="Arial" size="15" color="#ffffff" letterSpacing="0.000000" kerning="1"><b>Welcome to the Everybody Edits! </b><font color="#8a8a8a"><b>- The Multiplayer Level Editor</b></font></font></p>

@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<!-- Mirrored from eeforumify.com/viewtopic.php?pid=517016 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Feb 2015 02:13:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>[Discussion] Dragonfly -- higher command throughput (Page 1) / Bots and Programming / Everybody Edits Forums</title>
+<link rel="shortcut icon" href="http://favicon.ico/"/>
+<link rel="stylesheet" type="text/css" href="style/Novin15e1f.css?v=2"/>
+<!--[if lte IE 6]><script type="text/javascript" src="style/imports/minmax.js"></script><![endif]-->
+<style type="text/css">.gid1{color:#00FF00;font-weight:bold}.gid2{color:#97FFFF;font-weight:bold}.gid10{color:#E43AFF;font-weight:bold}.gid11{color:#660099;font-weight:bold}.gid12{color:#00FFCC;font-weight:bold}.gid13{font-weight:bold}.gid14{color:#34DDDD;font-weight:bold}.gid15{color:#ff0000;font-weight:bold}.gid16{font-weight:bold}.gid17{color:#FFCC00;font-weight:bold}</style>
+ 
+<link rel="stylesheet" media="screen" href="style/Novin1/archnavbarae24.css?v=14"/>
+<link rel="shortcut icon" href="glasses.ico"/>
+</head>
+<body>
+<div id="archnavbarlogo">
+<img src="style/Novin1/forumheader.png" usemap="#clickable" border="none">
+<map name="clickable">
+<area shape="rect" coords="185, 93, 523, 17" href="index.html">
+</map>
+</div>
+<div id="archnavbar" class="anb-forum">
+<div id="archnavbarmenu">
+<ul id="archnavbarlist">
+<div id="archnavbaritems">
+<li id="navindex" class="isactive"><a href="index.html">Index</a></li>
+<li id="navregister"><a href="register.html">Register</a></li>
+<li id="navlogin"><a href="login.html">Login</a></li>
+<li id="navextra1"><a href="miscaead.html?action=rules">Rules</a></li>
+<li id="navextra2"><a href="recent_warnings.html">Warnings</a></li>
+</div>
+</ul>
+</div>
+</div>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div>
+</div>
+<div class="punwrap">
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent"><center><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="GW2SLCWAWZFEY">
+<input type="image" src="../www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="../www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+</center></div>
+</div>
+</div>
+</div>
+<br/><br/>
+<div id="brdmain">
+<script>
+  // Resize iframe to full height
+  function resizeIframe(height)
+  {
+    // "+60" is a general rule of thumb to allow for differences in
+    // IE & and FF height reporting, can be adjusted as required..
+    document.getElementById('frame_name_here').height = parseInt(height)+60;
+  }
+</script>
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.html">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum9e43.html?id=25">Bots and Programming</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic8379.html?id=32547">[Discussion] Dragonfly -- higher command throughput</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p516922" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopica46d.html?pid=516922#p516922">2015-01-04 21:01:32</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Hexagon</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/427199af8.png?m=1419986573" width="120" height="120" alt=""/></dd>
+<dd><span>Registered: 2014-05-27</span></dd>
+<dd><span>Posts: 292</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>[Discussion] Dragonfly -- higher command throughput</h3>
+<div class="postmsg">
+<p>This bot is hypothetical, and does not exist yet.</p><br/><p>This bot aims to increase the efficiency (and perceived block/command speed) by optimizing what the players see, and determining how quickly a level can become functional and ready to play.</p><p>It has the following features:<br/>- render blocks in the player&#039;s viewport (so that it looks like it has loaded faster)<br/>- use analytics to determine when a player will enter a specific spot, and pre-render it<br/>- send commands such as (fill this hexagon with grey blocks), drawing the outline first to prevent users from entering the hexagon while it is being built, then fill it<br/>- dropping commands that attempt to change a block that is identical to the one that they are changing (already on the map)<br/>- automatically decreasing or increasing the delay between when blocks are sent to maximize efficiency<br/>- drawing background blocks later<br/>- if the minimap option is set, prioritize blocks that show a color on the minimap</p><p>This is for real-time games, and is useless if someone is looking at the minimap (as the illusions will be revealed).</p>
+<p class="postedit"><em>Last edited by Hexagon (2015-01-05 02:18:21)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p516932" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic4886.html?pid=516932#p516932">2015-01-04 21:45:01</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><b style="color: #00A0ff">XxAtillaxX</b></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/1365b557.gif?m=1387704662" width="90" height="71" alt=""/></dd>
+<dd><span>From: 127.0.0.1</span></dd>
+<dd><span>Registered: 2011-01-20</span></dd>
+<dd><span>Posts: 2,640</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://atil.la/" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Discussion] Dragonfly -- higher command throughput</h3>
+<div class="postmsg">
+<p>Would be useful, although I doubt sending blocks would be fast enough to efficently maintain a proper updating system in a live scenario with a bunch of players.</p><p>I was going to do similar in a digbot, where blocks are generated next to where they just touched.<br/>&#160; &#160; &#160; &#160; &#160; &#160;[x]<br/>&#160; &#160; &#160; &#160;[x] O<br/>&#160; &#160; &#160; &#160; &#160; &#160;[x]</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><span style="color: #00f6ff">»contact[<strong>TeamViewer</strong>: ( atila~ );, <strong>E-Mail</strong>: ( <a class="__cf_email__" href="cdn-cgi/l/email-protection.html" data-cfemail="caa9a5a4beaba9be8aabbea3a6e4a6ab">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script> );#~] <a href="https://www.youtube.com/v/updhwK0Okz8" rel="nofollow">[note]</a> Feel free to contact me.</span><img class="sigimage" src="../i.imgur.com/Yl22es7.gif" alt="Yl22es7.gif"/><br/><span style="color: #00c5cc"><br/>-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-*-*<br/></span></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p516958" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic9eac.html?pid=516958#p516958">2015-01-05 01:03:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Jabatheblob1</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/69400e4a.html?m=1396159984" width="120" height="120" alt=""/></dd>
+<dd><span>Registered: 2012-05-31</span></dd>
+<dd><span>Posts: 665</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Discussion] Dragonfly -- higher command throughput</h3>
+<div class="postmsg">
+<p>you could just connect multiple accounts, i just made a bot where i can connect multiple bots and wherever i place a block it moves to the next bot, <br/><span class="postimg"><img src="../i.imgur.com/6oVeVmd.html" alt="6oVeVmd.png"/></span><br/>i am able to connect 9 bots easily and split up the work among them all perfectly</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><center><img class="sigimage" src="../puu.sh/7P9Y0.html" alt="7P9Y0.png"/></center><br/>Want a personal bot made by me or Loa? <a href="http://tinyurl.com/q2lz384" rel="nofollow">Click here!</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p516961" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic473f.html?pid=516961#p516961">2015-01-05 01:15:42</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Hexagon</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/427199af8.png?m=1419986573" width="120" height="120" alt=""/></dd>
+<dd><span>Registered: 2014-05-27</span></dd>
+<dd><span>Posts: 292</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Discussion] Dragonfly -- higher command throughput</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Jabatheblob1 wrote:</cite><blockquote><div><p>you could just connect multiple accounts, i just made a bot where i can connect multiple bots and wherever i place a block it moves to the next bot, <br/><span class="postimg"><img src="../i.imgur.com/6oVeVmd.html" alt="6oVeVmd.png"/></span><br/>i am able to connect 9 bots easily and split up the work among them all perfectly</p></div></blockquote></div><p>That certainly works (in fact in many cases necessary). Moreover, it does make sense (as no modification to the original code is necessary) and you can immediately double or triple your output.</p><p>However the more blocks you need to place, the more bots need to be in the room at the same time. Unfortunately, this decreases how many people can be in your room at one time.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p516963" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic26cc.html?pid=516963#p516963">2015-01-05 01:40:18</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Jabatheblob1</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/69400e4a.html?m=1396159984" width="120" height="120" alt=""/></dd>
+<dd><span>Registered: 2012-05-31</span></dd>
+<dd><span>Posts: 665</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Discussion] Dragonfly -- higher command throughput</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Hexagon wrote:</cite><blockquote><div><p>However the more blocks you need to place, the more bots need to be in the room at the same time. Unfortunately, this decreases how many people can be in your room at one time.</p></div></blockquote></div><p>\<br/>Max rooms hasn&#039;t been a problem for ee in a long time.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><center><img class="sigimage" src="../puu.sh/7P9Y0.html" alt="7P9Y0.png"/></center><br/>Want a personal bot made by me or Loa? <a href="http://tinyurl.com/q2lz384" rel="nofollow">Click here!</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p516967" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopiceee8.html?pid=516967#p516967">2015-01-05 02:13:19</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Hexagon</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/427199af8.png?m=1419986573" width="120" height="120" alt=""/></dd>
+<dd><span>Registered: 2014-05-27</span></dd>
+<dd><span>Posts: 292</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Discussion] Dragonfly -- higher command throughput</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Jabatheblob1 wrote:</cite><blockquote><div><div class="quotebox"><cite>Hexagon wrote:</cite><blockquote><div><p>However the more blocks you need to place, the more bots need to be in the room at the same time. Unfortunately, this decreases how many people can be in your room at one time.</p></div></blockquote></div><p>\<br/>Max rooms hasn&#039;t been a problem for ee in a long time.</p></div></blockquote></div><p>I haven&#039;t seen any full rooms in a long time, so I agree that adding more bots probably won&#039;t contribute to the bloat too much. I suppose in very, very specific scenarios (like playing a small movie) where blocks must be updated extremely quickly and at a high rate would this (Dragonfly) be applicable.</p>
+<p class="postedit"><em>Last edited by Hexagon (2015-01-05 02:13:45)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p516968" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic0d4f.html?pid=516968#p516968">2015-01-05 02:30:23</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Jabatheblob1</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/69400e4a.html?m=1396159984" width="120" height="120" alt=""/></dd>
+<dd><span>Registered: 2012-05-31</span></dd>
+<dd><span>Posts: 665</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Discussion] Dragonfly -- higher command throughput</h3>
+<div class="postmsg">
+<p>i&#039;ve tried the movie idea, you need nearly over 20 bots just to make it somewhat recognizeable</p><p>but for what you&#039;re doing idk how many you would need</p>
+<p class="postedit"><em>Last edited by Jabatheblob1 (2015-01-05 02:30:42)</em></p>
+</div>
+<div class="postsignature postmsg"><hr/><p><center><img class="sigimage" src="../puu.sh/7P9Y0.html" alt="7P9Y0.png"/></center><br/>Want a personal bot made by me or Loa? <a href="http://tinyurl.com/q2lz384" rel="nofollow">Click here!</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p516973" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopicb578-2.html?pid=516973#p516973">2015-01-05 02:44:03</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Hexagon</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/427199af8.png?m=1419986573" width="120" height="120" alt=""/></dd>
+<dd><span>Registered: 2014-05-27</span></dd>
+<dd><span>Posts: 292</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Discussion] Dragonfly -- higher command throughput</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Jabatheblob1 wrote:</cite><blockquote><div><p>i&#039;ve tried the movie idea, you need nearly over 20 bots just to make it somewhat recognizeable</p><p>but for what you&#039;re doing idk how many you would need</p></div></blockquote></div><p>It sort of depends on how large the movie is, your internet connection, delay, frame-rate, how the blocks were updated and whether blocks that were identical were changed. But I do understand your point though, it would certainly require a lot of bots for a scenario like that (an example of where low latency and high throughput are required).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p517016" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic0960.html?pid=517016#p517016">2015-01-05 13:51:42</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><b style="color: #00A0ff">XxAtillaxX</b></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/1365b557.gif?m=1387704662" width="90" height="71" alt=""/></dd>
+<dd><span>From: 127.0.0.1</span></dd>
+<dd><span>Registered: 2011-01-20</span></dd>
+<dd><span>Posts: 2,640</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://atil.la/" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Discussion] Dragonfly -- higher command throughput</h3>
+<div class="postmsg">
+<p>I tried doing similar with &#039;movie&#039; except for mine, it was hooking up my webcam up to EE.</p><p>Matching colours is a pain though, and I never got it to fully work properly. Although, if you get it right, you can make webcam update pretty seamlessly and that makes for a cool little bot.</p><p>It reminds me kind of like 2010, when Aslai joined a world I was in and used EE Animator to draw a picture of his face in worlds. =P</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><span style="color: #00f6ff">»contact[<strong>TeamViewer</strong>: ( atila~ );, <strong>E-Mail</strong>: ( <a class="__cf_email__" href="cdn-cgi/l/email-protection.html" data-cfemail="b1d2dedfc5d0d2c5f1d0c5d8dd9fddd0">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script> );#~] <a href="https://www.youtube.com/v/updhwK0Okz8" rel="nofollow">[note]</a> Feel free to contact me.</span><img class="sigimage" src="../i.imgur.com/Yl22es7.gif" alt="Yl22es7.gif"/><br/><span style="color: #00c5cc"><br/>-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-*-*<br/></span></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.html">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum9e43.html?id=25">Bots and Programming</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic8379.html?id=32547">[Discussion] Dragonfly -- higher command throughput</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="http://eeforumify.com/viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum5445.html?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Announcements">
+<option value="4">Everybody Edits Announcements</option>
+<option value="11">Forum Announcements</option>
+</optgroup>
+<optgroup label="Everybody Edits">
+<option value="5">General Discussion</option>
+<option value="12">Groups</option>
+<option value="1">Rooms</option>
+<option value="7">Level Creation</option>
+<option value="25" selected="selected">Bots and Programming</option>
+<option value="24">Questions and Answers</option>
+</optgroup>
+<optgroup label="Feedback">
+<option value="2">Game Suggestions</option>
+<option value="16">Graphics Suggestions</option>
+<option value="10">Forum Discussion</option>
+<option value="3">Bug Reports</option>
+</optgroup>
+<optgroup label="Off-Topic">
+<option value="8">Off-Topic</option>
+<option value="22">Creative</option>
+<option value="6">Introductions</option>
+<option value="9">Forum Games</option>
+<option value="23">Topic Graveyard</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="poweredby">Powered by <a href="http://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<center>
+</center>
+</div>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+</body>
+
+<!-- Mirrored from eeforumify.com/viewtopic.php?pid=517016 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Feb 2015 02:13:07 GMT -->
+</html>

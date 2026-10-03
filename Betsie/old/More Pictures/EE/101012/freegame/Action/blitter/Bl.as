@@ -1,0 +1,132 @@
+﻿package blitter
+{
+    import flash.display.*;
+    import flash.events.*;
+
+    public class Bl extends Object
+    {
+        private static var last:Number = 0;
+        private static var keys:Object = {};
+        private static var justPressedKeys:Object = {};
+        private static var mouseDown:Boolean = false;
+        private static var mouseJustPressed:Boolean = false;
+        public static var stage:Stage;
+        public static var overlayContainer:Sprite;
+        public static var screenContainer:Bitmap;
+        public static var data:Object = {};
+        public static var width:Number;
+        public static var height:Number;
+        private static var shiftState:Boolean = false;
+
+        public function Bl()
+        {
+            return;
+        }// end function
+
+        public static function init(param1:Stage, param2:Number, param3:Number) : void
+        {
+            width = param2;
+            height = param3;
+            stage = param1;
+            stage.addEventListener(KeyboardEvent.KEY_DOWN, handleKeyDown);
+            stage.addEventListener(KeyboardEvent.KEY_UP, handleKeyUp);
+            stage.addEventListener(MouseEvent.MOUSE_DOWN, handleMouseDown);
+            stage.addEventListener(MouseEvent.MOUSE_UP, handleMouseUp);
+            last = new Date().getTime();
+            return;
+        }// end function
+
+        public static function get time() : Number
+        {
+            return last;
+        }// end function
+
+        public static function set time(param1:Number) : void
+        {
+            last = param1;
+            return;
+        }// end function
+
+        public static function get mouseX() : Number
+        {
+            return (screenContainer || stage).mouseX;
+        }// end function
+
+        public static function get mouseY() : Number
+        {
+            return (screenContainer || stage).mouseY;
+        }// end function
+
+        public static function get isMouseDown() : Boolean
+        {
+            return mouseDown;
+        }// end function
+
+        public static function get isMouseJustPressed() : Boolean
+        {
+            return mouseJustPressed;
+        }// end function
+
+        public static function isKeyDown(param1:int) : Boolean
+        {
+            return keys[param1] ? (true) : (false);
+        }// end function
+
+        public static function isKeyJustPressed(param1:int) : Boolean
+        {
+            return justPressedKeys[param1] ? (true) : (false);
+        }// end function
+
+        public static function exitFrame() : void
+        {
+            resetJustPressed();
+            return;
+        }// end function
+
+        public static function resetJustPressed() : void
+        {
+            justPressedKeys = {};
+            mouseJustPressed = false;
+            return;
+        }// end function
+
+        public static function get shiftKey() : Boolean
+        {
+            return shiftState;
+        }// end function
+
+        static function handleMouseDown(event:MouseEvent) : void
+        {
+            shiftState = event.shiftKey;
+            mouseDown = true;
+            mouseJustPressed = true;
+            return;
+        }// end function
+
+        static function handleMouseUp(event:MouseEvent) : void
+        {
+            shiftState = event.shiftKey;
+            mouseDown = false;
+            return;
+        }// end function
+
+        static function handleKeyDown(event:KeyboardEvent) : void
+        {
+            shiftState = event.shiftKey;
+            if (!keys[event.keyCode])
+            {
+                justPressedKeys[event.keyCode] = true;
+                keys[event.keyCode] = true;
+            }
+            return;
+        }// end function
+
+        static function handleKeyUp(event:KeyboardEvent) : void
+        {
+            shiftState = event.shiftKey;
+            delete keys[event.keyCode];
+            return;
+        }// end function
+
+    }
+}

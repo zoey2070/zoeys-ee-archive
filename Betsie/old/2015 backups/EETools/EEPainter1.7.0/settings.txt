@@ -1,0 +1,21 @@
+﻿% This is a commentary, it will be ignored.
+% Default settings:
+% window_size(S) = Size of the window (you don't say !) use 'S', 'M' or 'L'.
+% bot_sending_delay(60) = time in ms.
+% user_identification
+% user_password
+% export_method(Kong) = do you want to connect on EE or Kongregate ? use 'EE' (or 'ee') to connect on... EE. (can change in live)
+% import_method(Current) = do you want to import the last saved map, or the current map ? use 'Last' (or 'last') to... last. Yes. True story.
+ 
+window_size:M
+
+bot_sending_delay:10
+
+user_identification:sputnik@mail.com
+user_password:kena123
+
+export_method:ee
+import_method:Something else than Last or last will result on Current being the default. same as ^.
+
+%Empty lines are ignored.
+%You don't have to put every settings. You can simply ignore some, they will be set at their default.

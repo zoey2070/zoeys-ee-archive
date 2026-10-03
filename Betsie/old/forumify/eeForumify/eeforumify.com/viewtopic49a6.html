@@ -1,0 +1,930 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<!-- Mirrored from eeforumify.com/viewtopic.php?id=5718 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Feb 2015 02:12:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Sped up forum load times (Page 1) / Forum Announcements / Everybody Edits Forums</title>
+<link rel="shortcut icon" href="http://favicon.ico/"/>
+<link rel="stylesheet" type="text/css" href="style/Novin15e1f.css?v=2"/>
+<!--[if lte IE 6]><script type="text/javascript" src="style/imports/minmax.js"></script><![endif]-->
+<style type="text/css">.gid1{color:#00FF00;font-weight:bold}.gid2{color:#97FFFF;font-weight:bold}.gid10{color:#E43AFF;font-weight:bold}.gid11{color:#660099;font-weight:bold}.gid12{color:#00FFCC;font-weight:bold}.gid13{font-weight:bold}.gid14{color:#34DDDD;font-weight:bold}.gid15{color:#ff0000;font-weight:bold}.gid16{font-weight:bold}.gid17{color:#FFCC00;font-weight:bold}</style>
+ 
+<link rel="stylesheet" media="screen" href="style/Novin1/archnavbarae24.css?v=14"/>
+<link rel="shortcut icon" href="glasses.ico"/>
+</head>
+<body>
+<div id="archnavbarlogo">
+<img src="style/Novin1/forumheader.png" usemap="#clickable" border="none">
+<map name="clickable">
+<area shape="rect" coords="185, 93, 523, 17" href="index.html">
+</map>
+</div>
+<div id="archnavbar" class="anb-forum">
+<div id="archnavbarmenu">
+<ul id="archnavbarlist">
+<div id="archnavbaritems">
+<li id="navindex" class="isactive"><a href="index.html">Index</a></li>
+<li id="navregister"><a href="register.html">Register</a></li>
+<li id="navlogin"><a href="login.html">Login</a></li>
+<li id="navextra1"><a href="miscaead.html?action=rules">Rules</a></li>
+<li id="navextra2"><a href="recent_warnings.html">Warnings</a></li>
+</div>
+</ul>
+</div>
+</div>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div>
+</div>
+<div class="punwrap">
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent"><center><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="GW2SLCWAWZFEY">
+<input type="image" src="../www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="../www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+</center></div>
+</div>
+</div>
+</div>
+<br/><br/>
+<div id="brdmain">
+<script>
+  // Resize iframe to full height
+  function resizeIframe(height)
+  {
+    // "+60" is a general rule of thumb to allow for differences in
+    // IE & and FF height reporting, can be adjusted as required..
+    document.getElementById('frame_name_here').height = parseInt(height)+60;
+  }
+</script>
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.html">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum0055.html?id=11">Forum Announcements</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic49a6.html?id=5718">Sped up forum load times</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong> <a href="viewtopicef38.html?id=5718&amp;p=2">2</a> <a rel="next" href="viewtopicef38.html?id=5718&amp;p=2">Next</a></p>
+<p class="postlink conr">Topic closed</p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p76722" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic2380.html?pid=76722#p76722">2011-03-20 16:03:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid1">Meredith</span></strong></dt>
+<dd class="usertitle"><strong>L33T</strong></dd>
+<dd><span>From: Candy Land</span></dd>
+<dd><span>Registered: 2010-08-06</span></dd>
+<dd><span>Posts: 1,440</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Sped up forum load times</h3>
+<div class="postmsg">
+<p>Hey guys!</p><p>I just sped up forum load times again. For those interested, Forumify&#039;s code now implicitly flushes the output buffer. In english, that means that whenever something is output it is immediately sent to the user&#039;s browser instead of waiting for the whole page to load.</p><p>This means that in the event the server is really slow, it won&#039;t have quite as dramatic of an effect, and pages will seem to load faster in general.</p><p>Enjoy!</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><img class="sigimage" src="../i.imgur.com/0qCuHvP.png" alt="0qCuHvP.png"/><img class="sigimage" src="../i.imgur.com/ur9clPI.png" alt="ur9clPI.png"/><img class="sigimage" src="../i.imgur.com/9Rbj3OL.png" alt="9Rbj3OL.png"/></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p76728" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopica89b.html?pid=76728#p76728">2011-03-20 16:05:06</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Krazyman50</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/6239751.png?m=1390005070" width="64" height="64" alt=""/></dd>
+<dd><span>From: Lol, your back looks funny.</span></dd>
+<dd><span>Registered: 2010-11-20</span></dd>
+<dd><span>Posts: 6,049</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://everybodyedits.com/profiles/?/krazyman50" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Awesome! I thought something was faster when I came to this topic...</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="http://tinyurl.com/unPackMC" rel="nofollow"><img class="sigimage" src="../i.imgur.com/AwP0S81.png" alt="AwP0S81.png"/></a> - My Minecraft Resource Pack</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p76729" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic124a.html?pid=76729#p76729">2011-03-20 16:05:22</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">BillyP</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd><span>Registered: 2011-01-01</span></dd>
+<dd><span>Posts: 923</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Nice one, Cyclone. <img src="img/smilies/smile.png" width="15" height="15" alt="smile"/></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p76765" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic5778.html?pid=76765#p76765">2011-03-20 16:17:15</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Bobithan</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/100605b1.png?m=1387704604" width="90" height="90" alt=""/></dd>
+<dd><span>From: C jaby ydcbt ru abfydcbi ,cyyf</span></dd>
+<dd><span>Registered: 2010-12-26</span></dd>
+<dd><span>Posts: 2,652</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Hmm... I haven&#039;t really noticed but now if I think further back I do remember the loading being really slow... Anyways, Thanks!</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><center><a href="http://bit.ly/13Q5i1P" rel="nofollow">Trip to Montpelier</a> - <a href="http://bit.ly/15cAjBM" rel="nofollow">Mandelbrot Set</a> - <a href="http://bit.ly/15cGJko" rel="nofollow">Activities</a> - <a href="http://bit.ly/12tevuh" rel="nofollow">Family</a> - <a href="http://bit.ly/163qlCh" rel="nofollow">EE&#039;s Wonderful Community</a></center><br/><center><img class="sigimage" src="../i.imgur.com/cO2FRRR.png" alt="Bbthn.gif"/></center></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p76784" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic4de4-2.html?pid=76784#p76784">2011-03-20 16:32:06</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Samsung</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/1493f728.html?m=1387704678" width="69" height="54" alt=""/></dd>
+<dd><span>From: Netherlands</span></dd>
+<dd><span>Registered: 2011-01-30</span></dd>
+<dd><span>Posts: 52</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Cool <img src="img/smilies/big_smile.png" width="15" height="15" alt="big_smile"/> Say: YEAH YEAH YEAH<br/>Girl i wanna.. YEAH YEAH YEAH<br/><a href="http://www.youtube.com/watch?v=3mC2ixOAivA" rel="nofollow">http://www.youtube.com/watch?v=3mC2ixOAivA</a> xD</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Watch my new Everybody Edits promo video&#039;s today!<br/><a href="http://www.youtube.com/user/everybodyeditspromo" rel="nofollow">www.youtube.com/user/everybodyeditspromo</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p76951" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic86c8-2.html?pid=76951#p76951">2011-03-20 19:14:58</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Kaosslasher</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/5234304.gif?m=1387705055" width="90" height="90" alt=""/></dd>
+<dd><span>From: Wouldn&#039;t YOU like to know!</span></dd>
+<dd><span>Registered: 2010-10-12</span></dd>
+<dd><span>Posts: 2,767</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://everybodyedits.com/profiles/?/kaosslasher" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Good job... *giggle*... David <img src="img/smilies/lol.html" width="15" height="15" alt="lol"/></p>
+</div>
+<div class="postsignature postmsg"><hr/><p><img class="sigimage" src="../img708.imageshack.us/img708/741/kaosslashernoline.html" alt="kaosslashernoline.png"/> ~ Thanks &quot;SmittyW.&quot;</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p76974" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic957e.html?pid=76974#p76974">2011-03-20 19:48:51</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Supadorf24</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/1497f728.png?m=1387704678" width="90" height="90" alt=""/></dd>
+<dd><span>From: undecided</span></dd>
+<dd><span>Registered: 2011-01-31</span></dd>
+<dd><span>Posts: 2,827</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://everybodyedits.com/profiles/?/supadorf24" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Ha ha, didn&#039;t we learn his name was David on the FGS chat or something?</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><center>brb</center></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p76980" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic0c8c.html?pid=76980#p76980">2011-03-20 19:56:13</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">JadElClemens</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/9249a13.png?m=1387705252" width="90" height="90" alt=""/></dd>
+<dd><span>From: Texas, USA</span></dd>
+<dd><span>Registered: 2010-12-24</span></dd>
+<dd><span>Posts: 4,558</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://everybodyedits.com/profiles/?/jadelclemens" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>... How did Samsung get banned if he posted this today? Wow.</p><p>I thought something was faster when I came here today...</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><img class="sigimage" src="../i.imgur.com/wpQ8EJ5.gif" alt="wpQ8EJ5.gif"/><br/>Courtesy of Echo!</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p77017" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopica626.html?pid=77017#p77017">2011-03-20 20:34:39</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid1">Meredith</span></strong></dt>
+<dd class="usertitle"><strong>L33T</strong></dd>
+<dd><span>From: Candy Land</span></dd>
+<dd><span>Registered: 2010-08-06</span></dd>
+<dd><span>Posts: 1,440</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>supadorf24 wrote:</cite><blockquote><div><p>Ha ha, didn&#039;t we learn his name was David on the FGS chat or something?</p></div></blockquote></div><p>Or you could have asked. &lt;_&lt;</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><img class="sigimage" src="../i.imgur.com/0qCuHvP.png" alt="0qCuHvP.png"/><img class="sigimage" src="../i.imgur.com/ur9clPI.png" alt="ur9clPI.png"/><img class="sigimage" src="../i.imgur.com/9Rbj3OL.png" alt="9Rbj3OL.png"/></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p77033" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic836e.html?pid=77033#p77033">2011-03-20 20:46:36</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Kaosslasher</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/5234304.gif?m=1387705055" width="90" height="90" alt=""/></dd>
+<dd><span>From: Wouldn&#039;t YOU like to know!</span></dd>
+<dd><span>Registered: 2010-10-12</span></dd>
+<dd><span>Posts: 2,767</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://everybodyedits.com/profiles/?/kaosslasher" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>supadorf24 wrote:</cite><blockquote><div><p>Ha ha, didn&#039;t we learn his name was David on the FGS chat or something?</p></div></blockquote></div><p>Kinda...</p><p>chris was talking about some helpers,</p><p>it said michele, toby&#039;s real name.. idk if its toby...</p><p>and david...</p><p>im like who&#039;s davi-- <img src="img/smilies/big_smile.png" width="15" height="15" alt="big_smile"/></p>
+</div>
+<div class="postsignature postmsg"><hr/><p><img class="sigimage" src="../img708.imageshack.us/img708/741/kaosslashernoline.html" alt="kaosslashernoline.png"/> ~ Thanks &quot;SmittyW.&quot;</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p77041" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic52b8.html?pid=77041#p77041">2011-03-20 20:50:26</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Krazyman50</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/6239751.png?m=1390005070" width="64" height="64" alt=""/></dd>
+<dd><span>From: Lol, your back looks funny.</span></dd>
+<dd><span>Registered: 2010-11-20</span></dd>
+<dd><span>Posts: 6,049</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://everybodyedits.com/profiles/?/krazyman50" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Hey, MY name is David! <span class="postimg"><img src="../i.imgur.com/2YTqz.html" alt="2YTqz.png"/></span></p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="http://tinyurl.com/unPackMC" rel="nofollow"><img class="sigimage" src="../i.imgur.com/AwP0S81.png" alt="AwP0S81.png"/></a> - My Minecraft Resource Pack</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p77071" class="blockpost roweven">
+<h2><span><span class="conr">#12</span> <a href="viewtopicf5ad-2.html?pid=77071#p77071">2011-03-20 21:08:28</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid1">Different55</span></strong></dt>
+<dd class="usertitle"><strong>Burritosaur</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/2028479.png?m=1419002167" width="120" height="120" alt=""/></dd>
+<dd><span>Registered: 2010-08-18</span></dd>
+<dd><span>Posts: 11,170</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>It&#039;s a one day ban.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Confirmed worse than hitler and imprisoned for 9 zillion yearz ;_;</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p77079" class="blockpost rowodd">
+<h2><span><span class="conr">#13</span> <a href="viewtopiced13.html?pid=77079#p77079">2011-03-20 21:12:22</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Tako</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/1381ccb7.gif?m=1387704666" width="90" height="90" alt=""/></dd>
+<dd><span>From: Memphis, TN, USA Gender: Male</span></dd>
+<dd><span>Registered: 2011-01-21</span></dd>
+<dd><span>Posts: 7,246</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://cotku.tumblr.com/" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Cyclone wrote:</cite><blockquote><div><p>and pages will seem to load faster in general.</p><p>Enjoy!</p></div></blockquote></div><p>Pages will <em>seem</em> to load faster?</p><p>Matrix: The EE Forum style?</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>School; only active on weekends.</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p77167" class="blockpost roweven">
+<h2><span><span class="conr">#14</span> <a href="viewtopic92ef.html?pid=77167#p77167">2011-03-20 22:19:56</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Jojomanjo</span></strong></dt>
+<dd class="usertitle"><strong>Banned</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/403a352.jpg?m=1387704954" width="90" height="90" alt=""/></dd>
+<dd><span>From: California</span></dd>
+<dd><span>Registered: 2010-09-10</span></dd>
+<dd><span>Posts: 688</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://nyan.cat/" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>KRAZYMAN50 wrote:</cite><blockquote><div><p>Awesome! I thought something was faster when I came to this topic...</p></div></blockquote></div><p>dumas</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><img class="sigimage" src="../tinypic.com/images/404.gif" alt="988qyv.png"/><br/><span style="color: Black"><a href="http://www.youtube.com/watch?v=C5Je_KUzZYo" rel="nofollow">Don&#039;t click</a></span><br/><span style="color: black"><a href="http://www.youtube.com/watch?v=5jICCWwUo2w" rel="nofollow">Don&#039;t click</a></span></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p77168" class="blockpost rowodd">
+<h2><span><span class="conr">#15</span> <a href="viewtopicb401.html?pid=77168#p77168">2011-03-20 22:20:14</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid1">Meredith</span></strong></dt>
+<dd class="usertitle"><strong>L33T</strong></dd>
+<dd><span>From: Candy Land</span></dd>
+<dd><span>Registered: 2010-08-06</span></dd>
+<dd><span>Posts: 1,440</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Actually yes. They&#039;re just appearing to load faster, though in actuality they are going the exact same speed.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><img class="sigimage" src="../i.imgur.com/0qCuHvP.png" alt="0qCuHvP.png"/><img class="sigimage" src="../i.imgur.com/ur9clPI.png" alt="ur9clPI.png"/><img class="sigimage" src="../i.imgur.com/9Rbj3OL.png" alt="9Rbj3OL.png"/></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p77188" class="blockpost roweven">
+<h2><span><span class="conr">#16</span> <a href="viewtopic3e7e.html?pid=77188#p77188">2011-03-20 22:33:37</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Nou</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/1438813.png?m=1387704672" width="88" height="82" alt=""/></dd>
+<dd><span>Registered: 2010-08-15</span></dd>
+<dd><span>Posts: 1,762</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://everybodyedits.com/profiles/?/nou" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Load times are pretty good, gj <img src="img/smilies/smile.png" width="15" height="15" alt="smile"/></p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="../hostr.co/files/xHrbdlY/Nou%202.gif" rel="nofollow"><img class="sigimage" src="../hostr.co/files/xHrbdlY/Nou%202.gif" alt="Nou%202.gif"/></a> <span style="color: black">- TM02 ;D</span></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p77193" class="blockpost rowodd">
+<h2><span><span class="conr">#17</span> <a href="viewtopic0a52.html?pid=77193#p77193">2011-03-20 22:36:17</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid1">Different55</span></strong></dt>
+<dd class="usertitle"><strong>Burritosaur</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/2028479.png?m=1419002167" width="120" height="120" alt=""/></dd>
+<dd><span>Registered: 2010-08-18</span></dd>
+<dd><span>Posts: 11,170</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Cyclone... that... was a very clever idea. Now we don&#039;t have to load the entire page!</p><p>(this really makes a difference on my slow laptop I have to use sometimes.)</p>
+<p class="postedit"><em>Last edited by Different55 (2011-03-20 22:36:56)</em></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Confirmed worse than hitler and imprisoned for 9 zillion yearz ;_;</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p77503" class="blockpost roweven">
+<h2><span><span class="conr">#18</span> <a href="viewtopic1721.html?pid=77503#p77503">2011-03-21 02:06:12</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Smiley3</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/1171f3d6.jpg?m=1387704635" width="90" height="76" alt=""/></dd>
+<dd><span>From: Behind You</span></dd>
+<dd><span>Registered: 2011-01-04</span></dd>
+<dd><span>Posts: 285</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Great!! Now, if I would still use my personal slow laptop, way better.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>1newyears1 <span style="color: blue">My goal is to reach 200 +reps!</span> 1newyears1<br/>1fan1 <span style="color: red">Don&#039;t even think about spamming.</span> 1fan1<br/><img class="sigimage" src="../i.imgur.com/ie2u3.png" alt="ie2u3.png"/> <span style="color: orange">Last, never ever do anything bad.</span> <img class="sigimage" src="../i.imgur.com/ie2u3.png" alt="ie2u3.png"/><br/>&#160; &#160; &#160;My profile is currently private. 1xp1</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p77506" class="blockpost rowodd">
+<h2><span><span class="conr">#19</span> <a href="viewtopiccd19.html?pid=77506#p77506">2011-03-21 02:08:34</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Krazyman50</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/6239751.png?m=1390005070" width="64" height="64" alt=""/></dd>
+<dd><span>From: Lol, your back looks funny.</span></dd>
+<dd><span>Registered: 2010-11-20</span></dd>
+<dd><span>Posts: 6,049</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://everybodyedits.com/profiles/?/krazyman50" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Jojomanjo wrote:</cite><blockquote><div><div class="quotebox"><cite>KRAZYMAN50 wrote:</cite><blockquote><div><p>Awesome! I thought something was faster when I came to this topic...</p></div></blockquote></div><p>dumas</p></div></blockquote></div><p>WUT? God, that&#039;s mean.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="http://tinyurl.com/unPackMC" rel="nofollow"><img class="sigimage" src="../i.imgur.com/AwP0S81.png" alt="AwP0S81.png"/></a> - My Minecraft Resource Pack</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p78807" class="blockpost roweven">
+<h2><span><span class="conr">#20</span> <a href="viewtopicd41e.html?pid=78807#p78807">2011-03-23 15:52:00</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Gamer1120</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/893411d.gif?m=1387705246" width="89" height="90" alt=""/></dd>
+<dd><span>From: The Netherlands</span></dd>
+<dd><span>Registered: 2010-12-23</span></dd>
+<dd><span>Posts: 2,776</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.twitch.tv/gamer1120" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Finally, my DSi loads pages faster</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Gone forever... (or maybe shorter).<br/><span style="color: red">Fudge Builder&#039;s club. Seriously. I&#039;ve been Beta for a long time now, and now it&#039;s worth nothing. Gone 10 bucks. Sign the petition to cancel the builder&#039;s club at <a href="https://www.change.org/petitions/everybody-edits-stop-builder-s-club" rel="nofollow">https://www.change.org/petitions/everyb … der-s-club</a></span></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p125655" class="blockpost rowodd">
+<h2><span><span class="conr">#21</span> <a href="viewtopicc2a8.html?pid=125655#p125655">2011-05-23 22:57:48</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">pugprincess</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd><span>From: SOME WHERE IN UNITES STAES</span></dd>
+<dd><span>Registered: 2011-04-28</span></dd>
+<dd><span>Posts: 15</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://everybody edits/" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>hi</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>UMM I LIKE PUGS AND EVERYBODY EDITS</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p125656" class="blockpost roweven">
+<h2><span><span class="conr">#22</span> <a href="viewtopic6fc1.html?pid=125656#p125656">2011-05-23 22:58:35</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">pugprincess</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd><span>From: SOME WHERE IN UNITES STAES</span></dd>
+<dd><span>Registered: 2011-04-28</span></dd>
+<dd><span>Posts: 15</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://everybody edits/" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p><img src="img/smilies/yikes.html" width="15" height="15" alt="yikes"/><img src="img/smilies/wink.png" width="15" height="15" alt="wink"/><img src="img/smilies/hmm.png" width="15" height="15" alt="hmm"/><img src="img/smilies/tongue.png" width="15" height="15" alt="tongue"/><img src="img/smilies/lol.html" width="15" height="15" alt="lol"/><img src="img/smilies/mad.html" width="15" height="15" alt="mad"/><img src="img/smilies/roll.png" width="15" height="15" alt="roll"/><img src="img/smilies/cool.png" width="15" height="15" alt="cool"/>:):|:(:D</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>UMM I LIKE PUGS AND EVERYBODY EDITS</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p125685" class="blockpost rowodd">
+<h2><span><span class="conr">#23</span> <a href="viewtopic1cb6.html?pid=125685#p125685">2011-05-23 23:27:44</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Undead04</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/2112527e.html?m=1387704756" width="62" height="63" alt=""/></dd>
+<dd><span>From: North Carolina</span></dd>
+<dd><span>Registered: 2011-03-19</span></dd>
+<dd><span>Posts: 266</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Please refrain from double posting &amp; spamming, as it results in bans/warnings.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p125814" class="blockpost roweven">
+<h2><span><span class="conr">#24</span> <a href="viewtopic6cd3.html?pid=125814#p125814">2011-05-24 02:49:30</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid1">Different55</span></strong></dt>
+<dd class="usertitle"><strong>Burritosaur</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/2028479.png?m=1419002167" width="120" height="120" alt=""/></dd>
+<dd><span>Registered: 2010-08-18</span></dd>
+<dd><span>Posts: 11,170</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Please refrain from mini-modding, as it usually results in annoying the mods.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Confirmed worse than hitler and imprisoned for 9 zillion yearz ;_;</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p125992" class="blockpost rowodd">
+<h2><span><span class="conr">#25</span> <a href="viewtopic90dd.html?pid=125992#p125992">2011-05-24 12:49:34</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><span class="gid4">Betaguy</span></strong></dt>
+<dd class="usertitle"><strong>Member</strong></dd>
+<dd class="postavatar"><img src="img/avatars/ee/1024b079.html?m=1387704607" width="74" height="65" alt=""/></dd>
+<dd><span>From: Norway</span></dd>
+<dd><span>Registered: 2010-12-27</span></dd>
+<dd><span>Posts: 1,879</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://everybodyedits.com/profiles/?/betaguy" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Sped up forum load times</h3>
+<div class="postmsg">
+<p>Yes, it seems very fast. GREAT JOB <img src="img/smilies/big_smile.png" width="15" height="15" alt="big_smile"/></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Click my sig for my smileys and bricks :<br/><a href="viewtopicce92.html?id=6129" rel="nofollow"><img class="sigimage" src="../epicpwnage.co.cc/eebar/images/betaguy.html" alt="betaguy.png"/></a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong> <a href="viewtopicef38.html?id=5718&amp;p=2">2</a> <a rel="next" href="viewtopicef38.html?id=5718&amp;p=2">Next</a></p>
+<p class="postlink conr">Topic closed</p>
+</div>
+<ul class="crumbs">
+<li><a href="index.html">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum0055.html?id=11">Forum Announcements</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic49a6.html?id=5718">Sped up forum load times</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="http://eeforumify.com/viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum5445.html?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Announcements">
+<option value="4">Everybody Edits Announcements</option>
+<option value="11" selected="selected">Forum Announcements</option>
+</optgroup>
+<optgroup label="Everybody Edits">
+<option value="5">General Discussion</option>
+<option value="12">Groups</option>
+<option value="1">Rooms</option>
+<option value="7">Level Creation</option>
+<option value="25">Bots and Programming</option>
+<option value="24">Questions and Answers</option>
+</optgroup>
+<optgroup label="Feedback">
+<option value="2">Game Suggestions</option>
+<option value="16">Graphics Suggestions</option>
+<option value="10">Forum Discussion</option>
+<option value="3">Bug Reports</option>
+</optgroup>
+<optgroup label="Off-Topic">
+<option value="8">Off-Topic</option>
+<option value="22">Creative</option>
+<option value="6">Introductions</option>
+<option value="9">Forum Games</option>
+<option value="23">Topic Graveyard</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="poweredby">Powered by <a href="http://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<center>
+</center>
+</div>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+</body>
+
+<!-- Mirrored from eeforumify.com/viewtopic.php?id=5718 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Feb 2015 02:12:56 GMT -->
+</html>

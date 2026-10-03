@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+a.random-image.net	TRUE	/	FALSE	1999999999	ASPSESSIONIDCSASRATA	KINMHDOAGABKIPDOHOMOIONF
+hostr.co	TRUE	/	FALSE	1999999999	connect.sid	s%3AHofDI3ly3vMPMPTnFmBLIb3m.rYN%2FdmueCI34HsAWpFdRjAJMmrwc7CYrzxEYO3xLgQU
+.localhostr.com	TRUE	/	FALSE	1999999999	__cfduid	da0e41729426e08ba6517b7593fa3b37e1423188201
+.puu.sh	TRUE	/	FALSE	1999999999	__cfduid	dbec6155dbcd4e5b72bf9a0a1eb569b821423188466
+.tewin.ml	TRUE	/	FALSE	1999999999	__cfduid	dce5621dc8106c3addbb14d90a7d3c7c71423188517
+.eeforumify.com	TRUE	/	FALSE	1999999999	__cfduid	d63b316b1d12cd75123807d9bb58739c61423188772
+

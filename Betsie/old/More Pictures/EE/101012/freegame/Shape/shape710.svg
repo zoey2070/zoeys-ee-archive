@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="50px" height="22px"
+xml:space="preserve">
+<g id="PathID_217" transform="matrix(1, 0, 0, 1, 0, 1)">
+<path style="fill:#666666;fill-opacity:1" d="M24.1 -0.9L24.5 -1L46 -1Q49.2 -1 49.2 2.25L49.2 17.05Q49.2 20.2 46 20.2L3.15 20.2Q0 20.2 0 17.05L0 2.25Q0 -1 3.15 -1L23.65 -1L24.1 -0.9M24.1 0.9L23.65 1L19 1L3.15 1Q2 1 2 2.25L2 17.05Q2 18.2 3.15 18.2L19 18.2L24.5 18.2L46 18.2Q47.2 18.2 47.2 17.05L47.2 2.25Q47.2 1 46 1L24.5 1L24.1 0.9" />
+<linearGradient
+id="LinearGradID_137" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.05176e-005, 0.0119019, -0.0117188, 4.57764e-005, -34.8, 9.75)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#00DD00;stop-opacity:1" />
+<stop  offset="0.698039" style="stop-color:#009900;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_137) " d="M24.5 1L46 1Q47.2 1 47.2 2.25L47.2 17.05Q47.2 18.2 46 18.2L24.5 18.2L24.5 1" />
+<linearGradient
+id="LinearGradID_138" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.05176e-005, 0.0119019, -0.0117188, 4.57764e-005, 8.2, 9.75)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#00DD00;stop-opacity:1" />
+<stop  offset="0.698039" style="stop-color:#009900;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_138) " d="M19 1L23.65 1L24.1 0.9L24.5 1L24.5 18.2L19 18.2L19 1" />
+<linearGradient
+id="LinearGradID_139" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.05176e-005, 0.0119019, -0.0117188, 4.57764e-005, 23.2, 9.75)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#00DD00;stop-opacity:1" />
+<stop  offset="0.698039" style="stop-color:#009900;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_139) " d="M19 18.2L3.15 18.2Q2 18.2 2 17.05L2 2.25Q2 1 3.15 1L19 1L19 18.2" />
+</g>
+</svg>

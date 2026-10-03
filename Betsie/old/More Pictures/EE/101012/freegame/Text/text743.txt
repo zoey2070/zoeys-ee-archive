@@ -1,0 +1,1 @@
+﻿<p align="left"><font face="Nokia Cellphone FC Small" size="8" color="#cc0000" letterSpacing="0.000000" kerning="1">Email is not valid</font></p>
